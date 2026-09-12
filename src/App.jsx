@@ -49,25 +49,14 @@ function App() {
         "An AI-powered computer vision system designed to detect drones and aerial objects using YOLO and OpenCV.",
       tech: ["Python", "YOLO", "PyTorch", "OpenCV"],
       github: "#",
-      live: "#",
     },
     {
-      title: "TechnOS",
+      title: "Aether",
       emoji: "💻",
       description:
         "A graphical terminal emulator built using C++ with features like file operations, command history, tab completion, scrolling, and directory navigation.",
       tech: ["C++", "Raylib", "Git"],
       github: "#",
-      live: "#",
-    },
-    {
-      title: "Coming Soon",
-      emoji: "🚀",
-      description:
-        "More exciting projects are currently in development. Stay tuned!",
-      tech: ["React", "AI", "Development"],
-      github: "#",
-      live: "#",
     },
   ];
 
@@ -435,19 +424,6 @@ function App() {
 
             </div>
 
-
-            <div className="stat-card">
-
-              <h3>🌱</h3>
-
-              <h2>Learning</h2>
-
-              <p>
-                Every single day
-              </p>
-
-            </div>
-
           </motion.div>
 
         </div>
@@ -795,15 +771,6 @@ function App() {
               <FaLinkedin />
             </a>
 
-
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <SiLeetcode />
-            </a>
-
           </div>
 
         </motion.div>
@@ -819,7 +786,6 @@ function App() {
           © {new Date().getFullYear()}
           {" "}
           Nimisha Singhal.
-          Built with React ⚛️
         </p>
 
       </footer>
